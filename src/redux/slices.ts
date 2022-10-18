@@ -32,6 +32,6 @@ export const moviesSlice = createSlice({
   },
 })
 
-export const { setMovies, setSearchedSeries } = moviesSlice.actions
+export const { setMovies, setSearchedSeries, incrementPage } = moviesSlice.actions
 
 export default moviesSlice.reducer

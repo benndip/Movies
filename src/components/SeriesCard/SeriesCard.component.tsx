@@ -6,15 +6,16 @@ import { SeriesType } from '../../types/types';
 
 interface IProps {
     series: SeriesType
+    onPress: () => void
 }
 
-const SeriesCard: React.FC<IProps> = ({series}) => {
+const SeriesCard: React.FC<IProps> = ({series, onPress}) => {
   return (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity onPress={onPress} style={styles.container}>
         <View style={styles.imageContainer}>
               <Image source={series.image ? { uri: series.image.original }: require('../../../assets/movie.jpg')} resizeMode='center' style={styles.image} />
         </View>
-        <Text>{series.name}</Text>
+        <Text style={styles.seriesName}>{series.name}</Text>
     </TouchableOpacity>
   )
 }

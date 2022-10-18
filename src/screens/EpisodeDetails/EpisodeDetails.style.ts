@@ -91,7 +91,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginLeft: 10,
     alignSelf: 'flex-start',
-    marginTop: 20
+  },
+  episodeText: {
+    fontSize: 12,
+    fontWeight: "bold",
+    color: "#227093",
+    textAlign: 'center',
+    marginLeft: 10,
+    alignSelf: 'flex-start',
+    marginBottom: 10
   }
 });
 

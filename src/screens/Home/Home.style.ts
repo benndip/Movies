@@ -35,9 +35,11 @@ const styles = StyleSheet.create({
     },
     allMovies: {
         marginTop: 20,
-        fontWeight: '600'
+        marginLeft: 20,
+        fontWeight: 'bold'
     },
     scroll: {
+        alignSelf: 'center'
     }
 });
 

@@ -6,8 +6,8 @@ const styles = StyleSheet.create({
     container: {
         width: width * 0.42,
         height: height * 0.3,
-        marginVertical: 10,
-        alignSelf: 'center'
+        marginVertical: 25,
+        marginHorizontal: 10
     },
     image: {
         width: '100%',
@@ -15,11 +15,7 @@ const styles = StyleSheet.create({
     },
     imageContainer: {
         width: '100%',
-        height: '80%'
-    },
-    seriesName:{
-        marginLeft: 18,
-        marginTop: 5
+        height: '80%',
     }
 });
 
